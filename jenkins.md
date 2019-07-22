@@ -101,4 +101,5 @@ Add user jenkins to docker group
     
 Config Jenkins: Navigation to Manage Jenkins -> Configure System -> Cloud
 
+![Screen Shot 2019-07-22 at 4.17.47 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 4.17.47 PM.jpg)
 
