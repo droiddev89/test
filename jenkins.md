@@ -74,9 +74,9 @@ Install plugin
 	
     Manage Jenkins -> Manage Plugin -> [select Availble tab] -> search "Slack notification"
 	
-Add credentials
+Add credentials:  Navigation to Manage Jenkins -> Configure System -> Global Slack Notifier Settings
 	
-    Navigation to: Manage Jenkins -> Configure System -> Global Slack Notifier Settings
+    
 		Is Bot User? -> clicked
 		Integration Token Credential ID -> Add new credentials
 			- Domain -> Global credentials (unrestricted)
