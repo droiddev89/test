@@ -101,3 +101,4 @@ Add user jenkins to docker group
     
 Config Jenkins: Navigation to Manage Jenkins -> Configure System -> Cloud
 
+
