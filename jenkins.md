@@ -119,4 +119,5 @@ Config Jenkins: Navigation to Manage Jenkins -> Configure System -> Cloud
 
 **Config project**
 
+![Screen Shot 2019-07-22 at 5.00.19 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 5.00.19 PM.jpg)
 
