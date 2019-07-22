@@ -60,8 +60,8 @@ Navigate to -> Bot User
     
 Navigate to -> Installed App Settings
 
-		Click to install app
+	Click to install app
 
 Add app to channel
 		
-        Click to channel -> Channel info -> Add app -> Select app
+	Click to channel -> Channel info -> Add app -> Select app
