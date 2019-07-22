@@ -77,18 +77,16 @@ Install plugin
 Add credentials
 	
     Navigation to: Manage Jenkins -> Configure System -> Global Slack Notifier Settings
-	Is Bot User? -> clicked
-	Integration Token Credential ID -> Add new credentials
+		Is Bot User? -> clicked
+		Integration Token Credential ID -> Add new credentials
 			- Domain -> Global credentials (unrestricted)
 			- Kind -> Secret text
 			- Scope -> Global (Jenkins, nodes, items, all child items, etc)
 			- Secret -> [https://api.slack.com/apps -> select app -> OAuth & Permissions -> copy "Bot User OAuth Access Token" paste here]
 			- Description -> Name of this configuration
 
-			- [Need update] Credentials -> [find and update here];
-
-	Channel or Slack ID -> [copy channel id / Channel name] -> Test connection -> make sure channel received message from bots
-	Save configuration
+		Channel or Slack ID -> [copy channel id / Channel name] -> Test connection -> make sure channel received message from bots
+		Save configuration
 
 **2. Docker plugin**
 
