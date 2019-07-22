@@ -39,21 +39,29 @@ Find all xml config file
 
 **Create app bots slack**
 
-Add bot navigation to -> https://api.slack.com/apps
-        
-![Screen Shot 2019-07-22 at 3.37.09 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 3.37.09 PM.jpg =200x200)
+Add bot navigation to 
 
+	https://api.slack.com/apps
 
-Navigate to -> OAuth & Permissions and add Scope: incoming-webhook, chat:write:bot
-
-![Screen Shot 2019-07-22 at 3.39.31 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 3.39.31 PM.jpg)
-![Screen Shot 2019-07-22 at 3.39.49 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 3.39.49 PM.jpg)
-
-
+Navigate to -> OAuth & Permissions and add Scope: 
+	
+    + incoming-webhook
+    + chat:write:bot
 
 Navigate to -> Bot User
-		Create bot user
-	+ Navigate to -> Installed App Settings
+
+	+ Display name
+    
+    + Default username
+    
+    -> Save Change
+    
+    
+    
+Navigate to -> Installed App Settings
+
 		Click to install app
-	+ Add app to channel
-		Click to channel -> Channel info -> Add app -> Select app
+
+Add app to channel
+		
+        Click to channel -> Channel info -> Add app -> Select app
