@@ -124,3 +124,23 @@ Config Jenkins: Navigation to Manage Jenkins -> Configure System -> Cloud
 ![Screen Shot 2019-07-22 at 5.00.31 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 5.00.31 PM.jpg)
 
 ![Screen Shot 2019-07-22 at 5.00.44 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 5.00.44 PM.jpg)
+
+## D. ENABLE PERMISSION ON PROJECT FOR EACH USER
+
+Ref: 
+	
+    https://www.oodlestechnologies.com/blogs/Project-Role-based-authorization-on-Jenkins/
+
+Add user:
+
+	Navigate to Manage Jenkins -> Manage Users -> Create User
+    
+Enable project base security
+	
+    Navigate to Manage Jenkins -> Configure Global Security
+	In "Authorization", Select "Project-based Matrix Authorization Strategy". 
+		- Add "Admin" user and check all the checkbox to grant all permission to admin user.
+		- Authenticated Users -> check on: Overall [Read]
+		- Anonymous Users -> Uncheck all
+		- Add new user or group to custom authentication here
+        
