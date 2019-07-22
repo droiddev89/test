@@ -113,11 +113,11 @@ Config Jenkins: Navigation to Manage Jenkins -> Configure System -> Cloud
 
 ## C. SETUP PROJECT
 
-**New project, select type: Multibranch Pipeline**
+**1. New project, select type: Multibranch Pipeline**
 
 ![Screen Shot 2019-07-22 at 4.57.16 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 4.57.16 PM.jpg)
 
-**Config project**
+**2. Config project**
 
 ![Screen Shot 2019-07-22 at 5.00.19 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 5.00.19 PM.jpg)
 
