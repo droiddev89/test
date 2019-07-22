@@ -70,7 +70,7 @@ Add app to channel
 
 **b. Add bot to Jenkins**
 
-Install plugin
+Install slack notification plugin
 	
     Manage Jenkins -> Manage Plugin -> [select Availble tab] -> search "Slack notification"
 	
