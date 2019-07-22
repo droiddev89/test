@@ -30,6 +30,10 @@ Running
 Config file:
 
 	/etc/sysconfig/jenkins
+    
+Find all xml config file
+
+	find / -name "config.xml" | grep "jenkins"
 
 ## B. CONFIG PLUGIN & SYSTEM
 
