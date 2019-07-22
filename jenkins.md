@@ -31,3 +31,5 @@ Config file:
 
 	/etc/sysconfig/jenkins
 
+## B. CONFIG PLUGIN & SYSTEM
+
