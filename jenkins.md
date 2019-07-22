@@ -111,3 +111,5 @@ Config Jenkins: Navigation to Manage Jenkins -> Configure System -> Cloud
 
 ![Screen Shot 2019-07-22 at 4.20.05 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 4.20.05 PM.jpg)
 
+## C. SETUP PROJECT
+
