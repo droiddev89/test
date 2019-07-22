@@ -122,3 +122,5 @@ Config Jenkins: Navigation to Manage Jenkins -> Configure System -> Cloud
 ![Screen Shot 2019-07-22 at 5.00.19 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 5.00.19 PM.jpg)
 
 ![Screen Shot 2019-07-22 at 5.00.31 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 5.00.31 PM.jpg)
+
+![Screen Shot 2019-07-22 at 5.00.44 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 5.00.44 PM.jpg)
