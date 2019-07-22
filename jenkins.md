@@ -37,7 +37,7 @@ Find all xml config file
 
 ## B. CONFIG PLUGIN & SYSTEM
 
-**Create app bots slack**
+**1. Create app bots slack**
 
 Add bot navigation to 
 
