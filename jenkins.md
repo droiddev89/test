@@ -153,6 +153,7 @@ Retrict permission of project
 		- Uncheck all default role
 		- Add new user or group to custom authentication here
 
+![Screen Shot 2019-07-22 at 5.55.21 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 5.55.21 PM.jpg)
 
 
 
