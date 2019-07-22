@@ -131,7 +131,7 @@ Ref:
 	
     https://www.oodlestechnologies.com/blogs/Project-Role-based-authorization-on-Jenkins/
 
-Add user:
+Add user
 
 	Navigate to Manage Jenkins -> Manage Users -> Create User
     
@@ -144,3 +144,7 @@ Enable project base security
 		- Anonymous Users -> Uncheck all
 		- Add new user or group to custom authentication here
         
+![Screen Shot 2019-07-22 at 5.55.05 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 5.55.05 PM.jpg)
+
+
+
