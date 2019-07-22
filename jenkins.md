@@ -68,7 +68,7 @@ Add app to channel
 		
 	Click to channel -> Channel info -> Add app -> Select app
 
-b. Add bot to jenkins
+**b. Add bot to Jenkins**
 
 Install plugin
 	
