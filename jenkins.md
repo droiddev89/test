@@ -88,6 +88,8 @@ Add credentials:  Navigation to Manage Jenkins -> Configure System -> Global Sla
 	Channel or Slack ID -> [copy channel id / Channel name] -> Test connection -> make sure channel received message from bots
 	Save configuration
 
+![Screen Shot 2019-07-22 at 4.31.50 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 4.31.50 PM.jpg)
+
 **2. Docker plugin**
 
 Install plugin
@@ -108,3 +110,4 @@ Config Jenkins: Navigation to Manage Jenkins -> Configure System -> Cloud
 ![Screen Shot 2019-07-22 at 4.19.23 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 4.19.23 PM.jpg)
 
 ![Screen Shot 2019-07-22 at 4.20.05 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 4.20.05 PM.jpg)
+
