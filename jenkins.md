@@ -135,7 +135,7 @@ Add user
 
 	Navigate to Manage Jenkins -> Manage Users -> Create User
     
-Enable project base security
+Enable project base security on system
 	
     Navigate to Manage Jenkins -> Configure Global Security
 	In "Authorization", Select "Project-based Matrix Authorization Strategy". 
@@ -145,6 +145,14 @@ Enable project base security
 		- Add new user or group to custom authentication here
         
 ![Screen Shot 2019-07-22 at 5.55.05 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 5.55.05 PM.jpg)
+
+Retrict permission of project
+
+	Select project -> Configure
+    Enable project-based security
+		- Uncheck all default role
+		- Add new user or group to custom authentication here
+
 
 
 
