@@ -1,4 +1,4 @@
-## **Centos 7**
+## A. INSTALL
 
 Update system
 
