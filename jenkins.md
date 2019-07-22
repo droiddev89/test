@@ -65,3 +65,14 @@ Navigate to -> Installed App Settings
 Add app to channel
 		
 	Click to channel -> Channel info -> Add app -> Select app
+    
+**2. Docker plugin**
+
+Install plugin
+		
+	Manage Jenkins -> Manage Plugin -> [select Availble tab] -> search "Docker"
+
+Config
+
+	sudo usermod -a -G docker jenkins
+	restart jenkins
