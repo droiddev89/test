@@ -94,7 +94,10 @@ Install plugin
 		
 	Manage Jenkins -> Manage Plugin -> [select Availble tab] -> search "Docker"
 
-Config
+Add user jenkins to docker group
 
 	sudo usermod -a -G docker jenkins
 	restart jenkins
+    
+Config Jenkins: Navigation to Manage Jenkins -> Configure System -> Cloud
+
