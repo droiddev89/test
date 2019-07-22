@@ -13,7 +13,7 @@ Install Jenkins
     yum install jenkins -y
 ```    
     
-Start
+Start Jenkins
 
 	sudo systemctl start jenkins.service
 	sudo systemctl enable jenkins.service
@@ -37,8 +37,9 @@ Find all xml config file
 
 ## B. CONFIG PLUGIN & SYSTEM
 
-**1. Create app bots slack**
+**1. Slack notification**
 
+**a. Create app bots slack**
 Add bot navigation to 
 
 	https://api.slack.com/apps
@@ -65,7 +66,29 @@ Navigate to -> Installed App Settings
 Add app to channel
 		
 	Click to channel -> Channel info -> Add app -> Select app
-    
+
+b. Add bot to jenkins
+
+Install plugin
+	
+    Manage Jenkins -> Manage Plugin -> [select Availble tab] -> search "Slack notification"
+	
+Add credentials
+	
+    Navigation to: Manage Jenkins -> Configure System -> Global Slack Notifier Settings
+	Is Bot User? -> clicked
+	Integration Token Credential ID -> Add new credentials
+			- Domain -> Global credentials (unrestricted)
+			- Kind -> Secret text
+			- Scope -> Global (Jenkins, nodes, items, all child items, etc)
+			- Secret -> [https://api.slack.com/apps -> select app -> OAuth & Permissions -> copy "Bot User OAuth Access Token" paste here]
+			- Description -> Name of this configuration
+
+			- [Need update] Credentials -> [find and update here];
+
+	Channel or Slack ID -> [copy channel id / Channel name] -> Test connection -> make sure channel received message from bots
+	Save configuration
+
 **2. Docker plugin**
 
 Install plugin
