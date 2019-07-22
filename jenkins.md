@@ -146,7 +146,7 @@ Enable project base security on system
         
 ![Screen Shot 2019-07-22 at 5.55.05 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 5.55.05 PM.jpg)
 
-Retrict permission of project
+Restrict permission on project
 
 	Select project -> Configure
     Enable project-based security
@@ -154,6 +154,3 @@ Retrict permission of project
 		- Add new user or group to custom authentication here
 
 ![Screen Shot 2019-07-22 at 5.55.21 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 5.55.21 PM.jpg)
-
-
-
