@@ -38,9 +38,10 @@ Find all xml config file
 ## B. CONFIG PLUGIN & SYSTEM
 
 **Create app bots slack**
+
 Add bot navigation to -> https://api.slack.com/apps
         
-![Screen Shot 2019-07-22 at 3.37.09 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 3.37.09 PM.jpg)
+![Screen Shot 2019-07-22 at 3.37.09 PM.jpg]({{site.baseurl}}/media/Screen Shot 2019-07-22 at 3.37.09 PM.jpg =200x200)
 
 
 Navigate to -> OAuth & Permissions and add Scope: incoming-webhook, chat:write:bot
@@ -50,7 +51,7 @@ Navigate to -> OAuth & Permissions and add Scope: incoming-webhook, chat:write:b
 
 
 
-	+ Navigate to -> Bot User
+Navigate to -> Bot User
 		Create bot user
 	+ Navigate to -> Installed App Settings
 		Click to install app
